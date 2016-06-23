@@ -1,0 +1,101 @@
+2016-06-23T21:59:12.731442+00:00 app[web.1]: fromWeb=true
+2016-06-23T21:59:12.731448+00:00 app[web.1]: header: X-Request-Start = 1466719152707
+2016-06-23T21:59:12.731446+00:00 app[web.1]: Direction=inbound
+2016-06-23T21:59:12.731448+00:00 app[web.1]: header: X-Use-Static-Proxy = true
+2016-06-23T21:59:12.731449+00:00 app[web.1]: header: Host = arcane-woodland-8516.herokuapp.com
+2016-06-23T21:59:12.731450+00:00 app[web.1]: header: X-Forwarded-For = 23.21.226.67
+2016-06-23T21:59:12.731449+00:00 app[web.1]: header: Via = 1.1 vegur
+2016-06-23T21:59:12.731451+00:00 app[web.1]: header: Total-Route-Time = 0
+2016-06-23T21:59:12.731454+00:00 app[web.1]: header: X-Forwarded-Port = 443
+2016-06-23T21:59:12.731450+00:00 app[web.1]: header: X-Request-Id = b15fc0d6-5a5e-4974-a9d6-6f0f68d0beda
+2016-06-23T21:59:12.731451+00:00 app[web.1]: header: Content-Length = 299
+2016-06-23T21:59:12.731453+00:00 app[web.1]: header: Content-Type = application/x-www-form-urlencoded; charset=UTF-8
+2016-06-23T21:59:12.731455+00:00 app[web.1]: header: X-Forwarded-Proto = https
+2016-06-23T21:59:12.731456+00:00 app[web.1]: header: Connection = close
+2016-06-23T21:59:12.731456+00:00 app[web.1]: header: Connect-Time = 0
+2016-06-23T21:59:12.731459+00:00 app[web.1]: -------------------------end of log request--------------------------
+2016-06-23T21:59:12.731455+00:00 app[web.1]: header: User-Agent = TwilioProxy/1.1
+2016-06-23T21:59:12.731458+00:00 app[web.1]: header: X-Twilio-Signature = iXuvt7zPX6+/HQXA8jzeqYcJFdY=
+2016-06-23T21:59:12.731457+00:00 app[web.1]: header: Cache-Control = max-age=259200
+2016-06-23T21:59:12.731459+00:00 app[web.1]: 
+2016-06-23T21:59:48.399161+00:00 app[web.1]: -------------------------log request--------------------------
+2016-06-23T21:59:48.399177+00:00 app[web.1]: for request http://arcane-woodland-8516.herokuapp.com/voice/twilio/callhandler/status/00Dxx0000001gGw/number
+2016-06-23T21:59:48.399178+00:00 app[web.1]: query string null
+2016-06-23T21:59:48.399180+00:00 app[web.1]: CallbackSource=call-progress-events
+2016-06-23T21:59:48.399179+00:00 app[web.1]: AccountSid=AC5f10004e22355c27b26b1fb20d96d8a0
+2016-06-23T21:59:48.399181+00:00 app[web.1]: CallStatus=completed
+2016-06-23T21:59:48.399181+00:00 app[web.1]: ApplicationSid=AP694c93c6572245479d0f09f240a93ed3
+2016-06-23T21:59:48.399183+00:00 app[web.1]: To=+18143952652
+2016-06-23T21:59:48.399184+00:00 app[web.1]: CallDuration=19
+2016-06-23T21:59:48.399185+00:00 app[web.1]: ParentCallSid=CAadbbd16eb9382fdb9103184672d525b5
+2016-06-23T21:59:48.399184+00:00 app[web.1]: Called=+18143952652
+2016-06-23T21:59:48.399187+00:00 app[web.1]: Direction=outbound-dial
+2016-06-23T21:59:48.399186+00:00 app[web.1]: SequenceNumber=0
+2016-06-23T21:59:48.399188+00:00 app[web.1]: Timestamp=Thu, 23 Jun 2016 21:59:48 +0000
+2016-06-23T21:59:48.399187+00:00 app[web.1]: RecordingDuration=19
+2016-06-23T21:59:48.399182+00:00 app[web.1]: RecordingUrl=https://api.twilio.com/2010-04-01/Accounts/AC5f10004e22355c27b26b1fb20d96d8a0/Recordings/RE63079f12dc84a1de616b80186cd5abd5
+2016-06-23T21:59:48.399188+00:00 app[web.1]: ApiVersion=2010-04-01
+2016-06-23T21:59:48.399189+00:00 app[web.1]: Caller=+17609614955
+2016-06-23T21:59:48.399189+00:00 app[web.1]: RecordingSid=RE63079f12dc84a1de616b80186cd5abd5
+2016-06-23T21:59:48.399190+00:00 app[web.1]: CallSid=CA1cfba4e32802bf42e37df1f0a4e056b5
+2016-06-23T21:59:48.399194+00:00 app[web.1]: header: X-Forwarded-For = 23.21.226.67
+2016-06-23T21:59:48.399192+00:00 app[web.1]: header: X-Use-Static-Proxy = true
+2016-06-23T21:59:48.399192+00:00 app[web.1]: header: Host = arcane-woodland-8516.herokuapp.com
+2016-06-23T21:59:48.399192+00:00 app[web.1]: header: Via = 1.1 vegur
+2016-06-23T21:59:48.399191+00:00 app[web.1]: From=+17609614955
+2016-06-23T21:59:48.399195+00:00 app[web.1]: header: Content-Length = 687
+2016-06-23T21:59:48.399194+00:00 app[web.1]: header: Total-Route-Time = 0
+2016-06-23T21:59:48.399191+00:00 app[web.1]: header: X-Request-Start = 1466719188394
+2016-06-23T21:59:48.399193+00:00 app[web.1]: header: X-Request-Id = 47c4aca9-6f39-4222-9d7b-f4af36b4f789
+2016-06-23T21:59:48.399197+00:00 app[web.1]: header: X-Forwarded-Proto = https
+2016-06-23T21:59:48.399193+00:00 app[web.1]: header: Accept = */*
+2016-06-23T21:59:48.399198+00:00 app[web.1]: header: User-Agent = TwilioProxy/1.1
+2016-06-23T21:59:48.399197+00:00 app[web.1]: header: X-Forwarded-Port = 443
+2016-06-23T21:59:48.399196+00:00 app[web.1]: header: Content-Type = application/x-www-form-urlencoded; charset=utf-8
+2016-06-23T21:59:48.404753+00:00 heroku[router]: at=info method=POST path="/voice/twilio/callhandler/status/00Dxx0000001gGw/number" host=arcane-woodland-8516.herokuapp.com request_id=47c4aca9-6f39-4222-9d7b-f4af36b4f789 fwd="23.21.226.67" dyno=web.1 connect=0ms service=8ms status=200 bytes=166
+2016-06-23T21:59:48.399198+00:00 app[web.1]: header: Connection = close
+2016-06-23T21:59:48.399200+00:00 app[web.1]: header: X-Twilio-Signature = OwxE9h5udROQU/EwSM2PKq1Szs4=
+2016-06-23T21:59:48.399200+00:00 app[web.1]: header: Cache-Control = max-age=259200
+2016-06-23T21:59:48.399201+00:00 app[web.1]: -------------------------end of log request--------------------------
+2016-06-23T21:59:48.399206+00:00 app[web.1]: 
+2016-06-23T21:59:48.400912+00:00 app[web.1]: <?xml version="1.0" encoding="UTF-8"?><Response></Response>
+2016-06-23T21:59:48.423061+00:00 app[web.1]: -------------------------log request--------------------------
+2016-06-23T21:59:48.423088+00:00 app[web.1]: for request http://arcane-woodland-8516.herokuapp.com/voice/twilio/callhandler/status/00Dxx0000001gGw
+2016-06-23T21:59:48.423090+00:00 app[web.1]: AccountSid=AC5f10004e22355c27b26b1fb20d96d8a0
+2016-06-23T21:59:48.423089+00:00 app[web.1]: query string null
+2016-06-23T21:59:48.399199+00:00 app[web.1]: header: Connect-Time = 0
+2016-06-23T21:59:48.423093+00:00 app[web.1]: To=
+2016-06-23T21:59:48.423093+00:00 app[web.1]: Called=
+2016-06-23T21:59:48.423091+00:00 app[web.1]: ApplicationSid=AP694c93c6572245479d0f09f240a93ed3
+2016-06-23T21:59:48.423094+00:00 app[web.1]: CallDuration=36
+2016-06-23T21:59:48.423091+00:00 app[web.1]: CallbackSource=call-progress-events
+2016-06-23T21:59:48.423092+00:00 app[web.1]: CallStatus=completed
+2016-06-23T21:59:48.423095+00:00 app[web.1]: SequenceNumber=0
+2016-06-23T21:59:48.423096+00:00 app[web.1]: Caller=client:17609614955
+2016-06-23T21:59:48.423112+00:00 app[web.1]: CallSid=CAadbbd16eb9382fdb9103184672d525b5
+2016-06-23T21:59:48.423112+00:00 app[web.1]: From=client:17609614955
+2016-06-23T21:59:48.423096+00:00 app[web.1]: ApiVersion=2010-04-01
+2016-06-23T21:59:48.423113+00:00 app[web.1]: header: X-Request-Start = 1466719188419
+2016-06-23T21:59:48.423095+00:00 app[web.1]: Direction=inbound
+2016-06-23T21:59:48.423113+00:00 app[web.1]: header: X-Use-Static-Proxy = true
+2016-06-23T21:59:48.423095+00:00 app[web.1]: Timestamp=Thu, 23 Jun 2016 21:59:48 +0000
+2016-06-23T21:59:48.423117+00:00 app[web.1]: header: Content-Type = application/x-www-form-urlencoded; charset=utf-8
+2016-06-23T21:59:48.423114+00:00 app[web.1]: header: Via = 1.1 vegur
+2016-06-23T21:59:48.423115+00:00 app[web.1]: header: Accept = */*
+2016-06-23T21:59:48.423117+00:00 app[web.1]: header: Total-Route-Time = 0
+2016-06-23T21:59:48.423111+00:00 app[web.1]: Duration=1
+2016-06-23T21:59:48.423117+00:00 app[web.1]: header: Content-Length = 405
+2016-06-23T21:59:48.423114+00:00 app[web.1]: header: Host = arcane-woodland-8516.herokuapp.com
+2016-06-23T21:59:48.423119+00:00 app[web.1]: header: User-Agent = TwilioProxy/1.1
+2016-06-23T21:59:48.423116+00:00 app[web.1]: header: X-Request-Id = 50a4f854-296d-4a5b-a752-640a82b9ff7e
+2016-06-23T21:59:48.423119+00:00 app[web.1]: header: Connection = close
+2016-06-23T21:59:48.423116+00:00 app[web.1]: header: X-Forwarded-For = 184.73.170.150
+2016-06-23T21:59:48.423118+00:00 app[web.1]: header: X-Forwarded-Port = 443
+2016-06-23T21:59:48.423120+00:00 app[web.1]: header: X-Twilio-Signature = k1nz6OSN7MLuXJKICunS11xUZeM=
+2016-06-23T21:59:48.423119+00:00 app[web.1]: header: Connect-Time = 1
+2016-06-23T21:59:48.423118+00:00 app[web.1]: header: X-Forwarded-Proto = https
+2016-06-23T21:59:48.423124+00:00 app[web.1]: 
+2016-06-23T21:59:48.423121+00:00 app[web.1]: -------------------------end of log request--------------------------
+2016-06-23T21:59:48.425841+00:00 heroku[router]: at=info method=POST path="/voice/twilio/callhandler/status/00Dxx0000001gGw" host=arcane-woodland-8516.herokuapp.com request_id=50a4f854-296d-4a5b-a752-640a82b9ff7e fwd="184.73.170.150" dyno=web.1 connect=1ms service=4ms status=200 bytes=166
+2016-06-23T21:59:48.423120+00:00 app[web.1]: header: Cache-Control = max-age=259200
+2016-06-23T21:59:48.423171+00:00 app[web.1]: <?xml version="1.0" encoding="UTF-8"?><Response></Response>
